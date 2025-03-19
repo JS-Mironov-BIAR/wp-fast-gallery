@@ -19,6 +19,7 @@ export default function onClick(e, gallery) {
 
         modal.querySelector('.modal-controllers').append(buttonClose(), buttonNavigation())
         updateImage()
+
         modal.classList.add('show')
         bodyScrollStop(true)
     }
